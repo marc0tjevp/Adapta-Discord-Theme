@@ -1,0 +1,629 @@
+//colors
+$color_0: rgba(0, 0, 0, 0.2);
+$color_1: #263238;
+$color_2: #fff;
+$color_3: rgba(0, 186, 210, 0.1);
+$color_4: #fafafa;
+$color_5: #222d32;
+$color_6: #3e494e;
+$color_7: #333b3f;
+$color_8: #5e6a6e;
+$color_9: #646f74;
+$color_10: #a3adb2;
+$color_11: #33bad2;
+$color_12: #009eb2;
+$color_13: #4db6ac;
+$color_14: rgba(255, 255, 255, 0.02);
+$color_15: #263136;
+$color_16: #28343a;
+$color_17: rgba(255, 255, 255, 0.04);
+$color_18: rgba(0, 186, 210, 0.3);
+$color_19: #d11800;
+$color_20: rgba(209, 24, 0, 0.1);
+$color_21: rgba(209, 24, 0, 0.3);
+$color_22: rgba(0, 0, 0, 0.15);
+
+%extend_1 {
+	border-left: 2px solid $color_1;
+	border-radius: 0;
+	transition: border .2s ease-in;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Mono');
+.theme-dark {
+	.chat {
+		form {
+			background: none !important;
+			border: none;
+			box-shadow: none;
+			.typing {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+		}
+		.title-wrap {
+			background-color: $color_5;
+			border: none;
+		}
+		> .content {
+			background-color: $color_1;
+			background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+		}
+	}
+	.friends-table {
+		background-color: $color_1;
+		background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+		.messages .divider {
+			&:before {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+			span {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+			&:not(.red) div {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+		}
+	}
+	.ui-standard-sidebar-view {
+		.content-region {
+			background-color: $color_1;
+			background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+		}
+		.sidebar-region {
+			background: $color_5 !important;
+		}
+	}
+	.messages-wrapper {
+		background-color: $color_1;
+		background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+		.messages .divider {
+			&:before {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+			span {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+			&:not(.red) div {
+				background-color: $color_1;
+				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
+			}
+		}
+	}
+	.message-group {
+		.embed {
+			background-color: $color_1;
+		}
+		.comment .markup .mention {
+			background-color: $color_3;
+			color: $color_4;
+			&:hover {
+				background-color: $color_18;
+			}
+		}
+	}
+	#friends {
+		background: $color_5 !important;
+		.friends-header {
+			background: $color_5 !important;
+			.tab-bar .tab-bar-item.tab-bar-item-primary {
+				background: $color_1;
+			}
+		}
+		.friends-table .friends-row:hover {
+			background: $color_14;
+		}
+	}
+	.channel-members {
+		background-color: $color_1;
+		.member {
+			&:hover {
+				background: $color_14;
+			}
+			&.popout-open {
+				background: $color_14;
+			}
+		}
+	}
+	.channel-textarea-emoji {
+		display: none;
+	}
+	&.context-menu {
+		background: $color_16;
+		.item {
+			background: $color_16;
+			&:hover {
+				background: $color_14;
+			}
+		}
+		.context-menu {
+			background: $color_16;
+		}
+		.item-subMenu {
+			border-radius: none;
+			background: $color_16 url('/assets/1988164a7c55346d32117b151f4e319d.svg') no-repeat 155px 50% !important;
+		}
+	}
+	.typing-2GQL18 {
+		background: none;
+	}
+	.members-1998pB {
+		background: $color_5;
+	}
+	.title-3qD0b- {
+		background: $color_5;
+	}
+	.headerBar-UHpsPw {
+		background: $color_5;
+	}
+	.channel-textarea-inner {
+		background-color: transparent;
+		.channel-textarea-upload {
+			border: none;
+		}
+	}
+	.guild-settings-base-section .avatar-uploader .avatar-uploader-inner {
+		box-shadow: none;
+	}
+	.guild-settings-splash-section .avatar-uploader .avatar-uploader-inner {
+		box-shadow: none;
+	}
+}
+.chat {
+	.new-messages-bar {
+		background: $color_1;
+		&:hover {
+			background-color: $color_13;
+		}
+		button:last-child {
+			color: $color_2;
+		}
+	}
+	> .title-wrap.title-wrap-dark {
+		box-shadow: 0 0 1px 2px $color_0 !important;
+	}
+}
+.ui-standard-sidebar-view {
+	.scroller {
+		box-shadow: 0 0 1px 2px $color_0 !important;
+	}
+	#bd-customcss-attach-controls button {
+		background: $color_1;
+		&:hover {
+			background: $color_12;
+		}
+	}
+	#editor-detached button {
+		background: $color_1;
+	}
+}
+.guilds-wrapper {
+	box-shadow: 0 0 1px 2px $color_0 !important;
+	background: $color_5;
+	border: none;
+	z-index: 4;
+	.guilds-add {
+		background: $color_5;
+		border: none;
+		color: $color_2;
+	}
+	.guilds-error {
+		background: $color_20;
+		border-color: $color_19;
+		&:hover {
+			background-color: $color_19;
+		}
+	}
+	.guild-separator:after {
+		background: $color_2;
+		content: " ";
+		height: .5px;
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.guilds .guild .guild-inner {
+		background: $color_5 !important;
+	}
+}
+.scroller-2v3d_F {
+	background: $color_1;
+	padding-bottom: 20px;
+}
+.unread-mentions-indicator-bottom {
+	padding: 0 !important;
+}
+.unread-mentions-indicator-top {
+	padding: 0 !important;
+}
+.header {
+	background: $color_5 !important;
+}
+.connecting {
+	background: $color_5 !important;
+}
+.search-bar {
+	background: $color_5 !important;
+	border-radius: none;
+	box-shadow: none;
+	.search-bar-inner {
+		background: transparent;
+		border: none;
+		border-radius: 0;
+	}
+	input {
+		border-bottom: 1px solid $color_6;
+		transition: border .2s ease-out;
+		&:focus {
+			border-bottom: 2px solid $color_1;
+			transition: border .2s ease-in;
+		}
+	}
+}
+#bd-customcss-detach-container {
+	background: $color_5 !important;
+	#bd-customcss-attach-controls {
+		background-color: $color_1;
+		box-shadow: none;
+	}
+}
+.guild-channels {
+	background-color: $color_1;
+	.channel-text {
+		&.selected {
+			background-color: $color_1;
+			background: transparent !important;
+			&:before {
+				@extend %extend_1;
+			}
+			&:hover:before {
+				@extend %extend_1;
+			}
+		}
+		&:hover {
+			background: transparent;
+		}
+	}
+}
+.account {
+	background-color: $color_1;
+	border: none;
+	.btn {
+		background: $color_14;
+	}
+	.btn-group {
+		border: none;
+	}
+	.btn-deafen {
+		border: none;
+		box-shadow: none;
+	}
+	.btn-mute {
+		border: none;
+	}
+	.btn-settings {
+		box-shadow: none;
+	}
+}
+#rtc-connection {
+	background-color: $color_1;
+	border: none;
+	.btn {
+		background: $color_14;
+	}
+	.btn-group {
+		border: none;
+	}
+	.btn-info {
+		border: none;
+	}
+	.btn-disconnect {
+		box-shadow: none;
+	}
+}
+.private-channels {
+	background-color: $color_1;
+	.channel {
+		&.selected {
+			background: $color_17;
+			&:before {
+				@extend %extend_1;
+			}
+			a {
+				background-color: transparent;
+			}
+		}
+		&:hover {
+			background: $color_14;
+			a {
+				background-color: transparent;
+			}
+		}
+	}
+}
+.container-RYiLUQ {
+	background-color: $color_1;
+}
+.container-3lnMWU {
+	background-color: $color_1;
+	border: none;
+}
+.container-iksrDt {
+	background-color: $color_1;
+}
+* {
+	font-family: 'Ubuntu';
+	font-weight: 200;
+}
+.contentSelectedText-3j5CXt {
+	@extend %extend_1;
+	background: $color_14;
+}
+.contentDefaultText-2elG3R {
+	border-radius: 0;
+	transition: border .2s ease-out;
+}
+textarea {
+	border-bottom: 1px solid $color_6 !important;
+	padding-bottom: 8px !important;
+	transition: border .2s ease-out;
+	&:focus {
+		border-bottom: 2px solid $color_7 !important;
+		transition: border .2s ease-in;
+	}
+}
+::-webkit-scrollbar-track-piece {
+	background-color: transparent !important;
+	border: none !important;
+}
+::-webkit-scrollbar-thumb {
+	background-color: $color_8 !important;
+	border: none !important;
+	border-radius: 1px !important;
+	&:hover {
+		background-color: $color_9 !important;
+	}
+	&:active {
+		background-color: $color_10 !important;
+	}
+}
+.guild-header {
+	header {
+		background-color: $color_5;
+		border: none;
+		box-shadow: -2px 1px 1px 1px $color_22;
+		&:hover {
+			background: $color_15;
+		}
+	}
+	&.popout-open header {
+		background: $color_15;
+	}
+}
+.search-popout {
+	background-color: $color_5;
+	.option:after {
+		background: transparent;
+	}
+}
+::selection {
+	background: $color_11;
+}
+.form {
+	.btn-primary {
+		background: $color_1 !important;
+		border-color: $color_1 !important;
+	}
+	.form-inner {
+		background: $color_1;
+	}
+}
+.tooltip {
+	background: $color_1 !important;
+	border-color: $color_1 !important;
+	&.tooltip-error {
+		background-color: $color_19 !important;
+		&.tooltip-right:after {
+			border-right-color: $color_19;
+		}
+	}
+	&.tooltip-top:after {
+		border-top-color: $color_1;
+	}
+	&.tooltip-right:after {
+		border-right-color: $color_1;
+	}
+	&.tooltip-bottom:after {
+		border-bottom-color: $color_1;
+	}
+}
+.user-popout {
+	.footer {
+		background: $color_1;
+		border: none;
+	}
+	.body {
+		background: $color_1;
+	}
+	.avatar-wrapper .avatar-popout {
+		border-color: $color_1;
+	}
+}
+.slider-bar-fill {
+	background-color: $color_13;
+}
+.quick-message {
+	background: $color_1;
+	border: none;
+	border-bottom: 1px solid $color_1;
+	border-radius: 0;
+	color: $color_2;
+}
+.context-menu {
+	border-radius: 1px;
+	&.item {
+		border-radius: none;
+	}
+}
+.name-2SL4ev {
+	font-weight: 400;
+}
+.buttonRedOutlined-2t9fm_ {
+	color: $color_19;
+	border-color: $color_21;
+}
+.wrapper-fDmxzK {
+	padding-bottom: 4px;
+}
+.modal-content {
+	background: $color_1;
+	.form-inner p {
+		color: $color_2;
+	}
+}
+.bd-pfbtn {
+	font-family: 'Ubuntu';
+	padding: 3px;
+	background: $color_1;
+}
+.container-2Thooq {
+	background: none;
+}
+.container-PNkimc {
+	background: $color_5;
+}
+.bda-dark {
+	.emoji-picker {
+		background: $color_5;
+	}
+	.emojiPicker-3m1S-j {
+		background: $color_5;
+	}
+}
+.channels-Ie2l6A {
+	background: $color_1;
+}
+._3Mv0RaJ0 {
+	background: $color_1;
+}
+.buttonBrandFilled-3Mv0Ra {
+	background: $color_1;
+}
+.channel-textarea-inner {
+	border: none;
+}
+.contentHoveredText-2HYGIY {
+	background-color: transparent;
+}
+.avatar-uploader-inner {
+	background: transparent;
+}
+.mention {
+	color: $color_1;
+}
+.flex-spacer.flex-vertical {
+	box-shadow: none !important;
+	z-index: 1;
+}
+.message-group .comment {
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1;
+	margin-right: 20px;
+	min-width: 0;
+}
+#friends .friends-table {
+	margin-top: 1px;
+}
+div .guild-inner {
+	background: $color_5 !important;
+}
+.buttonBrandFilledDefault-2Rs6u5:hover {
+	background: $color_12;
+}
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+	background: $color_1;
+	&:hover {
+		background: $color_12;
+	}
+}
+.ui-card.ui-card-primary.flex-horizontal.margin-bottom-8.checked.editable {
+	background: $color_1 !important;
+	border-color: $color_1 !important;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked + span {
+	background: $color_1 !important;
+	border-color: $color_1 !important;
+}
+.ui-checkbox-wrapper .ui-checkbox.checked polyline {
+	stroke: $color_1 !important;
+}
+.ui-slider .slider-bar-fill {
+	background-color: $color_13;
+}
+.alert.form {
+	&.has-icon:before {
+		background-color: $color_1 !important;
+	}
+	.form-inner h4 {
+		color: $color_2;
+	}
+}
+.protip .label {
+	color: $color_13;
+}
+.member-roles .member-role {
+	background: $color_14;
+	border: none;
+}
+.note textarea {
+	border-bottom: 1px solid $color_6;
+	transition: border .2s ease-out;
+	&:focus {
+		background: transparent;
+		border-bottom: 2px solid $color_1;
+		transition: border .2s ease-in;
+	}
+}
+.content-region #bd-customcss-attach-controls {
+	background-color: $color_1;
+	box-shadow: none;
+}
+.notice.notice-danger {
+	background-color: $color_19;
+}
+.ui-tab-bar.SIDE .ui-tab-bar-item {
+	&.danger {
+		color: $color_19;
+	}
+	&.selected {
+		background: $color_1;
+	}
+	&:active {
+		background: $color_1;
+	}
+	&.brand {
+		color: $color_1;
+	}
+}
+.ui-switch-checkbox:checked + .ui-switch {
+	background: $color_1;
+}
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked + .ui-switch {
+	background: $color_1;
+}
