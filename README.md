@@ -1,5 +1,5 @@
-# Arc-Discord-Theme
-A BetterDiscord Theme with the colors of Arc GTK
+# Adapta-Discord-Theme
+A BetterDiscord Theme with the colors of Adapta GTK
 
 # Preview
 
