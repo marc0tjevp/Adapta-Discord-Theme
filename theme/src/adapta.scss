@@ -39,7 +39,6 @@ $color_22: rgba(0, 0, 0, 0.15);
 			box-shadow: none;
 			.typing {
 				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
 			}
 		}
 		.title-wrap {
@@ -51,58 +50,13 @@ $color_22: rgba(0, 0, 0, 0.15);
 			background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
 		}
 	}
-	.friends-table {
-		background-color: $color_1;
-		background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-		.messages .divider {
-			&:before {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-			span {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-			&:not(.red) div {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-		}
-	}
 	.ui-standard-sidebar-view {
-		.content-region {
-			background-color: $color_1;
-			background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-		}
 		.sidebar-region {
 			background: $color_5 !important;
 		}
 	}
 	.messages-wrapper {
 		background-color: $color_1;
-		background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-		.messages .divider {
-			&:before {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-			span {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-			&:not(.red) div {
-				background-color: $color_1;
-				background-image: url('https://www.transparenttextures.com/patterns/inspiration-geometry.png');
-			}
-		}
 	}
 	.message-group {
 		.embed {

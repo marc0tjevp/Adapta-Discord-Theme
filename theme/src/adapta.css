@@ -13,7 +13,6 @@
 
 .theme-dark .chat form .typing {
   background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 
 .theme-dark .chat .title-wrap {
@@ -26,61 +25,12 @@
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 
-.theme-dark .friends-table {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .friends-table .messages .divider:before {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .friends-table .messages .divider span {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .friends-table .messages .divider:not(.red) div {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .ui-standard-sidebar-view .content-region {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
   background: #222d32 !important;
 }
 
 .theme-dark .messages-wrapper {
   background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .messages-wrapper .messages .divider:before {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .messages-wrapper .messages .divider span {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
-}
-
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
-  background-color: #263238;
-  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
 }
 
 .theme-dark .message-group .embed {
