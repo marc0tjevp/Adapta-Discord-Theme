@@ -1,13 +1,9 @@
 # Adapta-Discord-Theme
-A BetterDiscord Theme with the colors of Adapta GTK
+A BetterDiscord Theme that fits in perfectly with the Adapta-Nokto GTK theme.
+
+#Installation
+Place the Adapta.theme.css in your BetterDiscord/themes folder and enable it in Discord Settings > Themes
 
 # Preview
 
-![alt text](img/nobg.png "Without background")
-You can disable the background image, but I like it enabled
-
-![alt text](img/chat.png "Chat")
-
-![alt text](img/friends.png "Friend list")
-
-![alt text](img/serverchat.png "Server Chat")
+![alt text](preview.png "Preview")
